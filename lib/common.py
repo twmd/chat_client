@@ -4,7 +4,7 @@ import logging
 import logging.config
 from functools import wraps
 
-LOG_ON = False
+LOG_ON = True
 
 
 logging.config.fileConfig(fname='log_config.py')
@@ -28,7 +28,7 @@ def log(func):
 # Принимает аргументы параметров запуска, проверяет на корректность, и возвращает адрес и порт. Если аргументов нет, то отправляются 0.0.0.0
 @log
 def getting_arguments():
-    server_addr = '0.0.0.0'
+    server_addr = '95.217.5.66'
     server_port = 7777
     i = 1
     if len(argv) == 3 or len(argv) == 5:
