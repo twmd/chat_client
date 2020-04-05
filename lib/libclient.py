@@ -58,28 +58,29 @@ def presence_message(account_name='slava', status_msg=''):
     return buf
 
 
-@log
-def getting_arguments():
-    server_addr = '95.217.5.66'
-    server_port = 7777
-    i = 1
-    if len(argv) == 3 or len(argv) == 5:
-        while i < len(argv):
-            if argv[i] == '-p':
-                server_port = int(argv[i + 1])
-
-            elif argv[i] == '-a':
-                server_addr = argv[i + 1]
-            i += 1
-            if ipaddress.ip_address(server_addr) and server_port in range(1, 65535):
-                return server_addr, server_port
-    elif len(argv) == 1:
-        if ipaddress.ip_address(server_addr) and server_port in range(1, 65535):
-            return server_addr, server_port
-    else:
-        print('Неправельное кол-во параметров')
+# @log
+# def getting_arguments():
+#     server_addr = '95.217.5.66'
+#     server_port = 7777
+#     i = 1
+#     if len(argv) == 3 or len(argv) == 5:
+#         while i < len(argv):
+#             if argv[i] == '-p':
+#                 server_port = int(argv[i + 1])
+#
+#             elif argv[i] == '-a':
+#                 server_addr = argv[i + 1]
+#             i += 1
+#             if ipaddress.ip_address(server_addr) and server_port in range(1, 65535):
+#                 return server_addr, server_port
+#     elif len(argv) == 1:
+#         if ipaddress.ip_address(server_addr) and server_port in range(1, 65535):
+#             return server_addr, server_port
+#     else:
+#         print('Неправельное кол-во параметров')
 
 #TODO: Доделать
+@log
 def getting_arguments_new():
     client_mode = 'read'
     server_addr = '95.217.5.66'

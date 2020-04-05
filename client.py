@@ -12,8 +12,6 @@ def start_client():
     # Тест. Выводит ответ сервера в консоль
     print(libclient.get_data_from_socket(client_socket))
     client_socket.close()
-    print(client_mode)
-    input()
 
 
 if __name__ == '__main__':
