@@ -1478,3 +1478,125 @@
 
 2020-04-05 15:20:46,711 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=140, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 5169), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x00000148555B24C0>), ('log_wrap', <function get_data_from_socket at 0x00000148555B2430>)]) 
 
+2020-04-05 15:28:15,001 - INFO - lib.libclient - getting_arguments, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function getting_arguments at 0x0000024CE2AE98B0>), ('log_wrap', <function getting_arguments at 0x0000024CE2AE9940>)]) 
+
+2020-04-05 15:28:15,064 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 5358), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x0000024CE2AE9A60>), ('log_wrap', <function action_function at 0x0000024CE2AE9AF0>)]) 
+
+2020-04-05 15:28:15,064 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x0000024CE2AE9790>), ('log_wrap', <function presence_message at 0x0000024CE2AE9820>)]) 
+
+2020-04-05 15:28:15,064 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=596, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 5358), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x0000024CE2AE9670>), ('log_wrap', <function get_data_from_socket at 0x0000024CE2AE9700>)]) 
+
+2020-04-05 16:57:23,737 - INFO - lib.libclient - getting_arguments, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function getting_arguments at 0x0000023E2542A8B0>), ('log_wrap', <function getting_arguments at 0x0000023E2542A940>)]) 
+
+2020-04-05 16:57:23,804 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7334), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x0000023E2542A9D0>), ('log_wrap', <function action_function at 0x0000023E2542AA60>)]) 
+
+2020-04-05 16:57:23,804 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x0000023E2542A790>), ('log_wrap', <function presence_message at 0x0000023E2542A820>)]) 
+
+2020-04-05 16:57:23,990 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7334), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x0000023E2542A670>), ('log_wrap', <function get_data_from_socket at 0x0000023E2542A700>)]) 
+
+2020-04-05 17:09:59,515 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7599), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x000002187B729AF0>), ('log_wrap', <function action_function at 0x000002187B729B80>)]) 
+
+2020-04-05 17:09:59,516 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x000002187B729820>), ('log_wrap', <function presence_message at 0x000002187B7298B0>)]) 
+
+2020-04-05 17:09:59,516 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=608, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7599), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x000002187B729700>), ('log_wrap', <function get_data_from_socket at 0x000002187B729790>)]) 
+
+2020-04-05 17:10:37,352 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7615), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x000001ABC00CFB80>), ('log_wrap', <function action_function at 0x000001ABC00CFC10>)]) 
+
+2020-04-05 17:10:37,353 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x000001ABC00CF8B0>), ('log_wrap', <function presence_message at 0x000001ABC00CF940>)]) 
+
+2020-04-05 17:10:37,353 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=616, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7615), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x000001ABC00CF790>), ('log_wrap', <function get_data_from_socket at 0x000001ABC00CF820>)]) 
+
+2020-04-05 17:10:46,091 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7622), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x00000220831BFB80>), ('log_wrap', <function action_function at 0x00000220831BFC10>)]) 
+
+2020-04-05 17:10:46,091 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x00000220831BF8B0>), ('log_wrap', <function presence_message at 0x00000220831BF940>)]) 
+
+2020-04-05 17:10:46,092 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7622), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x00000220831BF790>), ('log_wrap', <function get_data_from_socket at 0x00000220831BF820>)]) 
+
+2020-04-05 17:10:56,705 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7625), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x000002525BC9FB80>), ('log_wrap', <function action_function at 0x000002525BC9FC10>)]) 
+
+2020-04-05 17:10:56,705 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x000002525BC9F8B0>), ('log_wrap', <function presence_message at 0x000002525BC9F940>)]) 
+
+2020-04-05 17:10:56,705 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7625), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x000002525BC9F790>), ('log_wrap', <function get_data_from_socket at 0x000002525BC9F820>)]) 
+
+2020-04-05 17:11:00,016 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7626), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x000001B87C8EFB80>), ('log_wrap', <function action_function at 0x000001B87C8EFC10>)]) 
+
+2020-04-05 17:11:00,016 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x000001B87C8EF8B0>), ('log_wrap', <function presence_message at 0x000001B87C8EF940>)]) 
+
+2020-04-05 17:11:00,017 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=628, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7626), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x000001B87C8EF790>), ('log_wrap', <function get_data_from_socket at 0x000001B87C8EF820>)]) 
+
+2020-04-05 17:11:04,846 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7631), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x0000023F882CEB80>), ('log_wrap', <function action_function at 0x0000023F882CEC10>)]) 
+
+2020-04-05 17:11:04,846 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x0000023F882CE8B0>), ('log_wrap', <function presence_message at 0x0000023F882CE940>)]) 
+
+2020-04-05 17:11:04,846 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7631), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x0000023F882CE790>), ('log_wrap', <function get_data_from_socket at 0x0000023F882CE820>)]) 
+
+2020-04-05 17:12:08,725 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7649), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x00000247B0FC9B80>), ('log_wrap', <function action_function at 0x00000247B0FC9C10>)]) 
+
+2020-04-05 17:12:08,725 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x00000247B0FC98B0>), ('log_wrap', <function presence_message at 0x00000247B0FC9940>)]) 
+
+2020-04-05 17:12:08,725 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7649), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x00000247B0FC9790>), ('log_wrap', <function get_data_from_socket at 0x00000247B0FC9820>)]) 
+
+2020-04-05 17:12:17,286 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7658), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x0000023C8D8EFB80>), ('log_wrap', <function action_function at 0x0000023C8D8EFC10>)]) 
+
+2020-04-05 17:12:17,286 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x0000023C8D8EF8B0>), ('log_wrap', <function presence_message at 0x0000023C8D8EF940>)]) 
+
+2020-04-05 17:12:17,286 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7658), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x0000023C8D8EF790>), ('log_wrap', <function get_data_from_socket at 0x0000023C8D8EF820>)]) 
+
+2020-04-05 17:12:32,008 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7663), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x000001D9E5F3EB80>), ('log_wrap', <function action_function at 0x000001D9E5F3EC10>)]) 
+
+2020-04-05 17:12:32,008 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x000001D9E5F3E8B0>), ('log_wrap', <function presence_message at 0x000001D9E5F3E940>)]) 
+
+2020-04-05 17:12:32,008 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7663), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x000001D9E5F3E790>), ('log_wrap', <function get_data_from_socket at 0x000001D9E5F3E820>)]) 
+
+2020-04-05 17:13:36,830 - INFO - lib.libclient - getting_arguments, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function getting_arguments at 0x00000223A90BF940>), ('log_wrap', <function getting_arguments at 0x00000223A90BF9D0>)]) 
+
+2020-04-05 17:13:45,862 - INFO - lib.libclient - getting_arguments, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function getting_arguments at 0x0000026A9160F940>), ('log_wrap', <function getting_arguments at 0x0000026A9160F9D0>)]) 
+
+2020-04-05 17:13:48,512 - INFO - lib.libclient - getting_arguments, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function getting_arguments at 0x000002504C2AF940>), ('log_wrap', <function getting_arguments at 0x000002504C2AF9D0>)]) 
+
+2020-04-05 17:13:58,836 - INFO - lib.libclient - getting_arguments, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function getting_arguments at 0x00000222B53AE940>), ('log_wrap', <function getting_arguments at 0x00000222B53AE9D0>)]) 
+
+2020-04-05 17:14:01,058 - INFO - lib.libclient - getting_arguments, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function getting_arguments at 0x000001566B20F940>), ('log_wrap', <function getting_arguments at 0x000001566B20F9D0>)]) 
+
+2020-04-05 17:14:14,901 - INFO - lib.libclient - getting_arguments, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function getting_arguments at 0x0000022DCA34F940>), ('log_wrap', <function getting_arguments at 0x0000022DCA34F9D0>)]) 
+
+2020-04-05 17:14:25,934 - INFO - lib.libclient - getting_arguments, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function getting_arguments at 0x0000020C456FF940>), ('log_wrap', <function getting_arguments at 0x0000020C456FF9D0>)]) 
+
+2020-04-05 17:15:09,838 - INFO - lib.libclient - getting_arguments, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function getting_arguments at 0x0000023EE102F940>), ('log_wrap', <function getting_arguments at 0x0000023EE102F9D0>)]) 
+
+2020-04-05 17:15:09,899 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7748), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x0000023EE102FAF0>), ('log_wrap', <function action_function at 0x0000023EE102FB80>)]) 
+
+2020-04-05 17:15:09,899 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x0000023EE102F820>), ('log_wrap', <function presence_message at 0x0000023EE102F8B0>)]) 
+
+2020-04-05 17:15:09,899 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=584, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7748), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x0000023EE102F700>), ('log_wrap', <function get_data_from_socket at 0x0000023EE102F790>)]) 
+
+2020-04-05 17:16:12,520 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7777), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x000001DB70F2FAF0>), ('log_wrap', <function action_function at 0x000001DB70F2FB80>)]) 
+
+2020-04-05 17:16:12,520 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x000001DB70F2F820>), ('log_wrap', <function presence_message at 0x000001DB70F2F8B0>)]) 
+
+2020-04-05 17:16:12,520 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=624, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7777), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x000001DB70F2F700>), ('log_wrap', <function get_data_from_socket at 0x000001DB70F2F790>)]) 
+
+2020-04-05 17:16:19,186 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7782), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x00000198D42BFAF0>), ('log_wrap', <function action_function at 0x00000198D42BFB80>)]) 
+
+2020-04-05 17:16:19,186 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x00000198D42BF820>), ('log_wrap', <function presence_message at 0x00000198D42BF8B0>)]) 
+
+2020-04-05 17:16:19,187 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7782), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x00000198D42BF700>), ('log_wrap', <function get_data_from_socket at 0x00000198D42BF790>)]) 
+
+2020-04-05 17:19:13,711 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7841), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x0000021B7C119B80>), ('log_wrap', <function action_function at 0x0000021B7C119C10>)]) 
+
+2020-04-05 17:19:13,711 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x0000021B7C1198B0>), ('log_wrap', <function presence_message at 0x0000021B7C119940>)]) 
+
+2020-04-05 17:19:13,711 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=576, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7841), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x0000021B7C119790>), ('log_wrap', <function get_data_from_socket at 0x0000021B7C119820>)]) 
+
+2020-04-05 17:20:18,164 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7872), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x00000183D211EB80>), ('log_wrap', <function action_function at 0x00000183D211EC10>)]) 
+
+2020-04-05 17:20:18,165 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x00000183D211E8B0>), ('log_wrap', <function presence_message at 0x00000183D211E940>)]) 
+
+2020-04-05 17:20:18,165 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=612, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7872), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x00000183D211E790>), ('log_wrap', <function get_data_from_socket at 0x00000183D211E820>)]) 
+
+2020-04-05 17:20:18,172 - INFO - lib.libclient - action_function, with argument: dict_items([('args', ('presence', <socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7873), raddr=('95.217.5.66', 7777)>)), ('kwargs', {}), ('func', <function action_function at 0x000001A72659FB80>), ('log_wrap', <function action_function at 0x000001A72659FC10>)]) 
+
+2020-04-05 17:20:18,172 - INFO - lib.libclient - presence_message, with argument: dict_items([('args', ()), ('kwargs', {}), ('func', <function presence_message at 0x000001A72659F8B0>), ('log_wrap', <function presence_message at 0x000001A72659F940>)]) 
+
+2020-04-05 17:20:18,173 - INFO - lib.libclient - get_data_from_socket, with argument: dict_items([('args', (<socket.socket fd=588, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.0.2', 7873), raddr=('95.217.5.66', 7777)>,)), ('kwargs', {}), ('func', <function get_data_from_socket at 0x000001A72659F790>), ('log_wrap', <function get_data_from_socket at 0x000001A72659F820>)]) 
+

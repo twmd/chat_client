@@ -9,6 +9,7 @@ import ipaddress
 import logging
 import logging.config
 from functools import wraps
+import argparse
 
 LOG_ON = True
 
@@ -77,6 +78,19 @@ def getting_arguments():
             return server_addr, server_port
     else:
         print('Неправельное кол-во параметров')
+
+#TODO: Доделать
+def getting_arguments_new():
+    client_mode = 'read'
+    server_addr = '95.217.5.66'
+    server_port = 7777
+    parser = argparse.ArgumentParser(description='Test argument parser')
+    parser.add_argument('-w', action='store_true', help='Client write chat')
+    parser.add_argument('-r', action='store_true', help='Client read chat')
+    arg = parser.parse_args()
+    if arg.w:
+        client_mode = 'write'
+    return server_addr, server_port, client_mode
 
 
 @log
