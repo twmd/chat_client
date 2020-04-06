@@ -6,8 +6,6 @@ import logging.config
 import lib.libException as libException
 from sys import argv
 import ipaddress
-import logging
-import logging.config
 from functools import wraps
 import argparse
 
@@ -111,7 +109,22 @@ def action_function(action, sock):
         sock.send(action_dist[action]())
     else:
         raise libException.ActionLenght
-
+@log
+def send_message_in_chat(sock):
+    message = input('Введите сообщение: ')
+    msg = {
+        "action": 'msg',
+        "time": datetime.datetime.now().timestamp(),
+        "to": 'all',
+        "from": 'all',
+        "encoding": "ascii",
+        "message": message
+    }
+    msg_json = json.dumps(msg)
+    buf = msg_json.encode()
+    # print(sock)
+    # print(buf)
+    sock.send(buf)
 
 if __name__ == '__main__':
     pass

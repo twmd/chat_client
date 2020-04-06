@@ -8,10 +8,20 @@ def start_client():
     client_socket = socket.socket(family=socket.AF_INET, type=socket.SOCK_STREAM, proto=0)
     client_socket.connect((address, port))
     # Отсылает в функцию что должно уйти сообщение presence
-    libclient.action_function('presence', client_socket)
+    # libclient.action_function('presence', client_socket)
+
     # Тест. Выводит ответ сервера в консоль
-    print(libclient.get_data_from_socket(client_socket))
-    client_socket.close()
+    # print(libclient.get_data_from_socket(client_socket))
+    # client_socket.close()
+    if client_mode == 'write':
+        while True:
+            libclient.send_message_in_chat(client_socket)
+    elif client_mode == 'read':
+
+        while True:
+            data = libclient.get_data_from_socket(client_socket)
+            if data.get('action') == 'msg':
+                print(data.get('message'))
 
 
 if __name__ == '__main__':
