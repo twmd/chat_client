@@ -42,7 +42,7 @@ def get_data_from_socket(sock):
 # TODO: Добавить проверку типов
 # Формирует presence сообщение клиента
 @log
-def presence_message(account_name='slava', status_msg=''):
+def presence_message(sock, account_name='slava', status_msg=''):
     msg = {
         'action': 'presence',
         'time': datetime.datetime.now().timestamp(),
@@ -53,8 +53,8 @@ def presence_message(account_name='slava', status_msg=''):
     }
     msg_json = json.dumps(msg)
     buf = msg_json.encode()
-    # sock.send(buf)
-    return buf
+    sock.send(buf)
+    # return buf
 
 
 # @log
@@ -82,8 +82,8 @@ def presence_message(account_name='slava', status_msg=''):
 @log
 def getting_arguments_new():
     client_mode = 'read'
-    # server_addr = '95.217.5.66'
-    server_addr = '127.0.0.1'
+    server_addr = '95.217.5.66'
+    # server_addr = '127.0.0.1'
     server_port = 7777
     parser = argparse.ArgumentParser(description='Test argument parser')
     parser.add_argument('-w', action='store_true', help='Client write chat')
