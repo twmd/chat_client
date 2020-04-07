@@ -35,6 +35,7 @@ def log(func):
 def get_data_from_socket(sock):
     server_data_buf = sock.recv(1024)
     server_data = json.loads(server_data_buf.decode())
+    print(server_data)
     return server_data
 
 
@@ -81,7 +82,8 @@ def presence_message(account_name='slava', status_msg=''):
 @log
 def getting_arguments_new():
     client_mode = 'read'
-    server_addr = '95.217.5.66'
+    # server_addr = '95.217.5.66'
+    server_addr = '127.0.0.1'
     server_port = 7777
     parser = argparse.ArgumentParser(description='Test argument parser')
     parser.add_argument('-w', action='store_true', help='Client write chat')

@@ -16,10 +16,13 @@ def start_client():
     if client_mode == 'write':
         while True:
             libclient.send_message_in_chat(client_socket)
-    elif client_mode == 'read':
 
+    elif client_mode == 'read':
         while True:
+            data = client_socket.recv(1024)
+            print(data)
             data = libclient.get_data_from_socket(client_socket)
+            print(data)
             if data.get('action') == 'msg':
                 print(data.get('message'))
 
