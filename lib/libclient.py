@@ -9,7 +9,7 @@ import ipaddress
 from functools import wraps
 import argparse
 
-LOG_ON = True
+LOG_ON = False
 
 logging.config.fileConfig(fname='log_config.py')
 logger = logging.getLogger('filesLogger')
@@ -35,7 +35,6 @@ def log(func):
 def get_data_from_socket(sock):
     server_data_buf = sock.recv(1024)
     server_data = json.loads(server_data_buf.decode())
-    print(server_data)
     return server_data
 
 

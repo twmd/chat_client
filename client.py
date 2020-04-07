@@ -16,11 +16,11 @@ def start_client():
 
         libclient.presence_message(client_socket)
         while True:
-            soc_client_r, soc_client_w, soc_client_e = select.select(client_in, client_in, client_in, 1)
+            soc_client_r, _, _ = select.select(client_in, [], [], 1)
             for s in soc_client_r:
                 try:
                     data = libclient.get_data_from_socket(client_socket)
-                    if data.get('action') == 'msg':
+                    if data.get('action') == 'msg' and data.get('message'):
                         print(data.get('message'))
                 except Exception as e:
                     print(e)
