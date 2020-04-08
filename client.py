@@ -8,12 +8,12 @@ def start_client():
     client_socket = socket.socket(family=socket.AF_INET, type=socket.SOCK_STREAM, proto=0)
     client_socket.connect((address, port))
     client_in = [client_socket]
+    #Открывает окно клиента на запись в чат
     if client_mode == 'write':
         while True:
             libclient.send_message_in_chat(client_socket)
-
+    #Открывает окно клиента на чтение чата
     elif client_mode == 'read':
-
         libclient.presence_message(client_socket)
         while True:
             soc_client_r, _, _ = select.select(client_in, [], [], 1)

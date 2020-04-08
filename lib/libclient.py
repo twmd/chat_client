@@ -4,7 +4,6 @@ import datetime
 import logging
 import logging.config
 import lib.libException as libException
-from sys import argv
 import ipaddress
 from functools import wraps
 import argparse
@@ -53,7 +52,6 @@ def presence_message(sock, account_name='slava', status_msg=''):
     msg_json = json.dumps(msg)
     buf = msg_json.encode()
     sock.send(buf)
-    # return buf
 
 
 # @log
@@ -77,7 +75,7 @@ def presence_message(sock, account_name='slava', status_msg=''):
 #     else:
 #         print('Неправельное кол-во параметров')
 
-#TODO: Доделать
+#TODO: Доделать, добавить аргументы адресс и порт, сделать проверки.
 @log
 def getting_arguments_new():
     client_mode = 'read'
@@ -123,8 +121,6 @@ def send_message_in_chat(sock):
     }
     msg_json = json.dumps(msg)
     buf = msg_json.encode()
-    # print(sock)
-    # print(buf)
     sock.send(buf)
 
 if __name__ == '__main__':
